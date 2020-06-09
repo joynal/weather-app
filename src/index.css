@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  color: #ffffff;
+  padding: 0px;
+  margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Asap", sans-serif;
+}
+
+p,
+span {
+  font-family: "Ubuntu", sans-serif;
+  display: inline-block;
+}
+
+.bg {
+  background-image: url("https://static.pexels.com/photos/35884/amazing-beautiful-beauty-blue.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.content {
+  background-color: rgba(0, 0, 0, 0.7);
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.info {
+  line-height: 1.5em;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.days {
+  justify-content: space-evenly;
+  max-width: 600px;
+  display: flex;
+  width: 100%;
+}
+
+.day-common {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  width: 70px;
+}
+
+.day-common p,
+.day-common span {
+  text-align: center;
+  display: block;
+}
+
+.day-common p {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.day-common span {
+  font-weight: bold;
+  font-size: 0.8em;
+  margin-top: 8px;
+}
+
+.day-common i {
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+  fill: #fff;
+  padding: 4px;
+  height: 42px;
+  width: 42px;
+}

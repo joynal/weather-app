@@ -1,0 +1,5 @@
+{
+  "weatherAPI": "https://cors-anywhere.herokuapp.com/https://samples.openweathermap.org",
+  "weatherAPIKey": "b6907d289e10d714a6e88b30761fae22",
+  "cityAPI": "https://ipinfo.io?token=a4a4d379ac05cd"
+}
